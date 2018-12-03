@@ -16,7 +16,7 @@ if (!isset($_SESSION)) {
     <body>
 <?php
 $News = $_POST['txtNews'];
-$Date = date('m/d/y');
+$Date = date('y/d/m');
 // Establish Connection with MYSQL
 $con = mysqli_connect("localhost", "root");
 // Select Database
